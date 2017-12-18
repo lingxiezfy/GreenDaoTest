@@ -24,6 +24,7 @@
                 android:text="name :"/>
             <EditText
                 android:id="@+id/et_name"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -36,8 +37,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="sex :"/>
+
             <EditText
                 android:id="@+id/et_sex"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -52,6 +55,7 @@
                 android:text="department :"/>
             <EditText
                 android:id="@+id/et_department"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -66,6 +70,7 @@
                 android:text="salary :"/>
             <EditText
                 android:id="@+id/et_salary"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"/>
